@@ -16,7 +16,7 @@
       <arg name="verbose" value="$(arg verbose)"/>
   </include>
 
-  <param name="robot_description" command="cat '$(find t1_description)/urdf/t1.xacro'"/>
+  <param name="robot_description" command="cat '$(find t2)/urdf/b2.xacro'"/>
 
   <arg name="x" default="0"/>
   <arg name="y" default="0"/>
